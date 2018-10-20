@@ -6,13 +6,13 @@ while True:
         discounted_price = float(discounted_price)        
         if discounted_price >= 100000:
             discounted_price *= 0.8
-            print(discounted_price)
+            print('\n', discounted_price, end = ' 元\n\n')
         elif discounted_price >= 50000 and discounted_price < 100000:
             discounted_price *= 0.85
-            print(discounted_price)
+            print('\n', discounted_price, end = ' 元\n\n')
         elif discounted_price >= 30000 and discounted_price < 50000:
             discounted_price *= 0.9
-            print(discounted_price)
+            print('\n', discounted_price, end = ' 元\n\n')
         else:
             discounted_price *= 0.95
-            print(discounted_price)
+            print('\n', discounted_price, end = ' 元\n\n')
